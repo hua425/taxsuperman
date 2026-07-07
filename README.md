@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# taxsuperman
 
-# Run and deploy your AI Studio app
+這是一個使用 Vite + React 建立的靜態遊戲專案，已調整為可透過 GitHub Actions 部署到 GitHub Pages。
 
-This contains everything you need to run your app locally.
+## 本機開發
 
-View your app in AI Studio: https://ai.studio/apps/c06d5d3b-337e-4502-8885-ac5ec4e59926
+需要 Node.js。
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. 安裝相依套件：
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. 啟動開發伺服器：
    `npm run dev`
+
+## 部署到 GitHub Pages
+
+1. 將程式推送到 GitHub 的 main 分支。
+2. 在 GitHub Repository Settings > Pages 中，選擇「GitHub Actions」。
+3. Action 會自動建置並部署到：
+   `https://hua425.github.io/taxsuperman/`
