@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Microsoft JhengHei", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* 13x9 炸彈超人迷宮專屬網格排版 */
+.grid-cols-13 {
+  grid-template-columns: repeat(13, minmax(0, 1fr)) !important;
+}
+
+.grid-rows-9 {
+  grid-template-rows: repeat(9, minmax(0, 1fr)) !important;
+}
+
+/* 新北市風格可愛 Switch 按鍵微調 */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a;
+  overflow: hidden;
+  font-family: var(--font-sans);
+}
+

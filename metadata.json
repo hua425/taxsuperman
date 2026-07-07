@@ -1,0 +1,8 @@
+{
+  "name": "地價稅拆彈超人－拆炸彈大挑戰 版本1",
+  "description": "一款以經典炸彈超人為靈感的趣味迷宮拆彈遊戲，結合新北市地價稅實用知識。玩家需操控新北省稅小精靈在迷宮中尋找正確答案的可愛炸彈，拆除成功即可通關，並解鎖地價稅小知識！",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
